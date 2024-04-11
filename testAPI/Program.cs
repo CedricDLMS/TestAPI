@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddScoped<IRandomService, RandomService>();
 builder.Services.AddScoped<IRandomService, CryptoRandom>();
 builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddMemoryCache();
 //builder.Services.AddDbContext<ExoDbContext>();
 builder.Services.AddDbContext<ExoDbContext>(o =>
 {

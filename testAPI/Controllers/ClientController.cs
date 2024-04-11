@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
+using testAPI.DTOs.Clients;
 using testAPI.IServices;
 using testAPI.Models;
 
@@ -12,10 +14,12 @@ namespace testAPI.Controllers
     {
         readonly ExoDbContext _context;
         readonly IClientService _clientService;
-        public ClientController(ExoDbContext context, IClientService clientService)
+        readonly IMemoryCache _cache;
+        public ClientController(ExoDbContext context, IClientService clientService, IMemoryCache cache)
         {
             this._context = context;
             this._clientService = clientService;
+            this._cache = cache;
         }
 
         // GET BY ID 
@@ -50,8 +54,20 @@ namespace testAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var c = await _context.Clients.ToListAsync<Client>();
-            return Ok(c);
+            string cacheKey = "dataClient";
+            if (_cache.TryGetValue(cacheKey, out List<ClientDTO> cachedData))
+            {
+                return Ok(cachedData);
+            }
+            else
+            {
+                await Task.Delay(TimeSpan.FromSeconds(15));
+                var data = await _clientService.GetAll();
+                var cacheOption = new MemoryCacheEntryOptions();
+                _cache.Set(cacheKey, data, cacheOption.SetSlidingExpiration(TimeSpan.FromMinutes(1)));
+                return Ok(data);
+            }
+            //return Ok(await _clientService.GetAll());
         }
         [HttpPost]
 
@@ -69,7 +85,8 @@ namespace testAPI.Controllers
             {
                 await _clientService.Delete(id);
                 return Ok("Client supprimé avec succés");
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }

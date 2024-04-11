@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using testAPI.DTOs.Clients;
 using testAPI.IServices;
 using testAPI.Models;
 
@@ -33,10 +34,9 @@ namespace testAPI.Services
             return client;
         }
 
-        public async Task<List<Client>> GetAll()
+        public async Task<List<ClientDTO>> GetAll()
         {
-            var client = await _context.Clients.ToListAsync();
-            return client;
+            return await _context.Clients.Select(c => new ClientDTO{ FirstName = c.FirstName, LastName = c.LastName }).ToListAsync();
         }
         public async Task<Client> Create(string firstName, string lastName)
         {
