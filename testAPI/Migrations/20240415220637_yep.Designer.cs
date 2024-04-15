@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using testAPI.Models;
 
@@ -11,9 +12,11 @@ using testAPI.Models;
 namespace testAPI.Migrations
 {
     [DbContext(typeof(ExoDbContext))]
-    partial class ExoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240415220637_yep")]
+    partial class yep
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

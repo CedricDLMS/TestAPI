@@ -2137,6 +2137,15 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "RandomString4Net/1.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RandomString4Net.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/RandomString4Net.dll": {}
+        }
+      },
       "Scrutor/3.3.0": {
         "type": "package",
         "dependencies": {
@@ -6994,6 +7003,46 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "RandomString4Net/1.8.0": {
+      "sha512": "K1BGz/+TI1BheJocKGv2OLa5clA8sSZfnDicTXgBIXWz59RT26ektCn7yvVv5AeNYAMA+LMPYSRQwHRztM/52w==",
+      "type": "package",
+      "path": "randomstring4net/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net20/RandomString4Net.dll",
+        "lib/net35/RandomString4Net.dll",
+        "lib/net40/RandomString4Net.dll",
+        "lib/net45/RandomString4Net.dll",
+        "lib/net451/RandomString4Net.dll",
+        "lib/net452/RandomString4Net.dll",
+        "lib/net46/RandomString4Net.dll",
+        "lib/net461/RandomString4Net.dll",
+        "lib/net462/RandomString4Net.dll",
+        "lib/net47/RandomString4Net.dll",
+        "lib/net471/RandomString4Net.dll",
+        "lib/net472/RandomString4Net.dll",
+        "lib/net48/RandomString4Net.dll",
+        "lib/net5.0-windows7.0/RandomString4Net.dll",
+        "lib/net5.0/RandomString4Net.dll",
+        "lib/net6.0-windows7.0/RandomString4Net.dll",
+        "lib/net6.0/RandomString4Net.dll",
+        "lib/net7.0-windows7.0/RandomString4Net.dll",
+        "lib/net7.0/RandomString4Net.dll",
+        "lib/net8.0-windows7.0/RandomString4Net.dll",
+        "lib/net8.0/RandomString4Net.dll",
+        "lib/netcoreapp2.0/RandomString4Net.dll",
+        "lib/netcoreapp2.1/RandomString4Net.dll",
+        "lib/netcoreapp2.2/RandomString4Net.dll",
+        "lib/netcoreapp3.0/RandomString4Net.dll",
+        "lib/netcoreapp3.1/RandomString4Net.dll",
+        "lib/netstandard2.0/RandomString4Net.dll",
+        "lib/netstandard2.1/RandomString4Net.dll",
+        "randomstring4net.1.8.0.nupkg.sha512",
+        "randomstring4net.nuspec"
+      ]
+    },
     "Scrutor/3.3.0": {
       "sha512": "BwqCnFzp2/Z+pq17iztxlIkR/ZANyPRR4PdE57WL1w/JW4AM/2imoxBWTL3+G+YXA46ce4s9OUgwWqTXYrtI8A==",
       "type": "package",
@@ -8515,36 +8564,41 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
+      "RandomString4Net >= 1.8.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Swashbuckle.AspNetCore.Filters >= 8.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DIGINAMIC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\delma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\testAPI.csproj",
+      "projectUniqueName": "C:\\Users\\delma\\source\\repos\\TestAPI\\testAPI\\testAPI.csproj",
       "projectName": "testAPI",
-      "projectPath": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\testAPI.csproj",
-      "packagesPath": "C:\\Users\\DIGINAMIC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\obj\\",
+      "projectPath": "C:\\Users\\delma\\source\\repos\\TestAPI\\testAPI\\testAPI.csproj",
+      "packagesPath": "C:\\Users\\delma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\delma\\source\\repos\\TestAPI\\testAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\DIGINAMIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\delma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8590,6 +8644,10 @@
             "target": "Package",
             "version": "[8.0.2, )"
           },
+          "RandomString4Net": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -8618,7 +8676,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
