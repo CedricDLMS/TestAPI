@@ -1,8 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace testAPI.Models
 {
-    public class ExoDbContext : DbContext
+    public class ExoDbContext : IdentityDbContext<AppUser>
     {
         public ExoDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
 

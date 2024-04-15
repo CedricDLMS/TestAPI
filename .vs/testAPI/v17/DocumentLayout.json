@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\controllers\\clientauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\controllers\\clientauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\controllers\\exoroutecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\controllers\\exoroutecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\models\\exodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\models\\exodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\iservices\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\iservices\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +31,20 @@
       "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\models\\exodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\models\\exodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\dtos\\clients\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\dtos\\clients\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\middlewares\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\middlewares\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|c:\\users\\diginamic\\source\\repos\\testapi\\testapi\\dtos\\clients\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F0A515-9E07-464F-A8A4-0CEA818AAC6C}|testAPI\\testAPI.csproj|solutionrelative:testapi\\dtos\\clients\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,37 +54,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 337,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "ExoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\ExoDbContext.cs",
+              "RelativeDocumentMoniker": "testAPI\\Models\\ExoDbContext.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\ExoDbContext.cs",
+              "RelativeToolTip": "testAPI\\Models\\ExoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T12:45:27.071Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Program.cs",
               "RelativeDocumentMoniker": "testAPI\\Program.cs",
               "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Program.cs",
               "RelativeToolTip": "testAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAwwDYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T13:14:35.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\ExoDbContext.cs",
-              "RelativeDocumentMoniker": "testAPI\\Models\\ExoDbContext.cs",
-              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\ExoDbContext.cs",
-              "RelativeToolTip": "testAPI\\Models\\ExoDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "testAPI\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\Client.cs",
+              "RelativeToolTip": "testAPI\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T12:45:27.071Z",
+              "WhenOpened": "2024-04-10T14:02:16.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "testAPI\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\AppUser.cs",
+              "RelativeToolTip": "testAPI\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:04:41.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "testAPI\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "testAPI\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T13:43:27.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExoRouteController.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ExoRouteController.cs",
+              "RelativeDocumentMoniker": "testAPI\\Controllers\\ExoRouteController.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ExoRouteController.cs",
+              "RelativeToolTip": "testAPI\\Controllers\\ExoRouteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T13:43:27.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientAuth.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ClientAuth.cs",
+              "RelativeDocumentMoniker": "testAPI\\Controllers\\ClientAuth.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ClientAuth.cs",
+              "RelativeToolTip": "testAPI\\Controllers\\ClientAuth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T13:43:22.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "testAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "testAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:36:21.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Middlewares\\CustomResponse.cs",
+              "RelativeDocumentMoniker": "testAPI\\Middlewares\\CustomResponse.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Middlewares\\CustomResponse.cs",
+              "RelativeToolTip": "testAPI\\Middlewares\\CustomResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:37:34.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "testAPI\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Services\\ClientService.cs",
+              "RelativeToolTip": "testAPI\\Services\\ClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:53:20.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ClientDTO.cs",
               "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\DTOs\\Clients\\ClientDTO.cs",
               "RelativeDocumentMoniker": "testAPI\\DTOs\\Clients\\ClientDTO.cs",
@@ -82,70 +199,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T12:25:42.064Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IClientService.cs",
-              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\IServices\\IClientService.cs",
-              "RelativeDocumentMoniker": "testAPI\\IServices\\IClientService.cs",
-              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\IServices\\IClientService.cs",
-              "RelativeToolTip": "testAPI\\IServices\\IClientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T12:53:47.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "testAPI\\Services\\ClientService.cs",
-              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Services\\ClientService.cs",
-              "RelativeToolTip": "testAPI\\Services\\ClientService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA1wCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T12:53:20.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "testAPI\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "testAPI\\Controllers\\ClientController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwEQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T12:26:43.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "testAPI\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Models\\Client.cs",
-              "RelativeToolTip": "testAPI\\Models\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:02:16.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomResponse.cs",
-              "DocumentMoniker": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Middlewares\\CustomResponse.cs",
-              "RelativeDocumentMoniker": "testAPI\\Middlewares\\CustomResponse.cs",
-              "ToolTip": "C:\\Users\\DIGINAMIC\\source\\repos\\testAPI\\testAPI\\Middlewares\\CustomResponse.cs",
-              "RelativeToolTip": "testAPI\\Middlewares\\CustomResponse.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T12:37:34.13Z"
             }
           ]
         }

@@ -13,6 +13,9 @@ namespace testAPI.Models
         [MinLength(3,ErrorMessage ="Nom Trop Court")]
         public required string LastName { get; set; }
 
+        public string? AppUserId { get; set; }
+        public AppUser? AppUser { get; set; }
+
         //public List<Client> ListClients { get; set;}
     }
 }
